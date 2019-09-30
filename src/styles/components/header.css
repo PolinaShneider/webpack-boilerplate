@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: whitesmoke;
+    padding: 10px;
+    margin-bottom: 30px;
+
+    &__link {
+        font-size: 17px;
+        color: darkblue;
+        font-family: fantasy;
+        padding: 15px;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
